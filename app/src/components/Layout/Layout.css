@@ -1,0 +1,18 @@
+
+.layout {
+  border: 2px solid red;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 2.5fr 1fr;
+  column-gap: 10px;
+  justify-content: center;
+}
+
+.layout > * {
+  border-top: 1px solid #aaa;
+  border-left: 1px solid #aaa;
+  border-right: 3px solid #333;
+  border-bottom: 3px solid #333;
+  border-radius: 5px;
+  padding: 10px;
+}
